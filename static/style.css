@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Amatic SC', cursive;
+}
+
+#about #main-heading{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Piazzolla', serif;
+}
+#about #main-heading h1{
+    font-size: 5rem;
+}
+#about #sub-heading{
+    display: flex;
+    justify-content: center;
+    font-family: 'Piazzolla', serif;
+}
+#about #main-heading h4{
+    font-size: 1.75rem;
+}
+.wrap{
+    width:700px;
+    margin: 30px auto;
+  }
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px,2fr));
+    grid-gap: 30px;
+    padding: 3rem;
+}
+.card button{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.card h2{
+    color: black;
+}
+.card{
+    background: white;
+    padding: 3 rem;
+    border: 1px solid black;
+    margin: 0.5rem;
+}
+.card img{
+    width: 100%;
+}
+
+.model-outer{
+    display: grid;
+    background: rgb(0, 196, 65, 0.2);
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
+
+  .footer{
+    background: rgb(30, 40, 51);
+    color: white;
+    font-size: 2rem;
+  }
+  
+  .footer-logo{
+    text-align: center;
+    text-shadow: 1px 1px aquamarine;   
+  }
+  
+  .footer-social{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+  }
+  
+  .footer-nav a{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+  }
+ .main-footer p{
+     display: flex;
+     justify-content: center;
+     font-family: 'Piazzolla', serif;
+     font-size: 1.5rem;
+ }
