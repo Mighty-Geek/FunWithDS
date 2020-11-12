@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <!-- Stylesheet  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>FunWithDS</title>
+</head>
+
+<body>
+    <nav class="navbar fixed top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" style="font-size:2rem;" href="#">FunWithDS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" style="font-size:1.5rem;" href="#">Home <i class="fas fa-home"></i><span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="font-size:1.5rem;" href="#">Fork <i class="fas fa-code-branch"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="font-size:1.5rem;" href="#">Progress <i class="fas fa-tasks"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="font-size:1.5rem;" href="#">Login / Sign Up <i
+                            class="fas fa-user-plus"></i></a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" style="font-size:1.5rem;" type="search" placeholder="Sort by DS...">
+                <button class="btn btn-outline-success my-2 my-sm-0" style="font-size:1.5rem;"
+                    type="submit">SORT</button>
+            </form>
+        </div>
+    </nav>
+    <section id="about">
+        <div id="main-heading">
+            <h1>FunWithDS</h1>
+        </div>
+        <div id="sub-heading">
+            <h4>What if you can learn Data Structures along with simple projects</h4>
+        </div>
+        <!-- carousel -->
+        <div class="wrap">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="/image/1.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="/image/2.png" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="/image/3.png" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+    </section>
+    <div class="cards">
+        <div class="card" data-description="Anagrams- uses HashSets, HashMaps">
+            <img src="image/sudoku.JPG" alt="">
+            <h2>SUDOKU SOLVER</h2>
+            <button><i class="fab fa-github"></i></button><button><i class="fas fa-info-circle"></i></button>
+        </div>
+        <div class="card" data-description="Scarne's Dice- uses asynchronous programming and UI">
+            <img src="image/SBS.JPG" alt="">
+            <h2>SIMPLE BANKING SYSTEM</h2>
+            <button><i class="fab fa-github"></i></button><button><i class="fas fa-info-circle"></i></button>
+        </div>
+        <div class="card" data-description="Puzzle'8- uses Heaps, priority queues, A* Algorithm">
+            <img src="image/hangman.JPG" alt="">
+            <h2>HANGMAN </h2>
+            <button><i class="fab fa-github"></i></button><button><i class="fas fa-info-circle"></i></button>
+        </div>
+    </div>
+    <div class="outer-model">
+        <div class="inner-model"></div>
+    </div>
+    <section class="footer">
+        <div class="container">
+            <!-- logo(center) -->
+            <div class="footer-logo">
+                <h2>FunWithDS</h2>
+            </div>
+            <!-- social networking links -->
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+            <!-- footer nav -->
+            <div class="footer-nav">
+                <a href="#">Home</a>
+                <a href="#">Fork</a>
+                <a href="#">Progress</a>
+                <a href="#">Login/Signup</a>
+            </div>
+            <!-- copyright -->
+            <div class="main-footer">
+                <p>Copyright &copy 2020 FunWithDS </p>
+            </div>
+
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="static/index.js"></script>
+</body>
+
+</html>
